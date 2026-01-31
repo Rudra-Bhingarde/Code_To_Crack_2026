@@ -29,3 +29,14 @@ bool isprime(int num){
     }
     return true;
 }
+
+//complexity O(n^(1/2)) root n.
+
+// num = 20
+// 1 x 20
+// 2 x 10
+// 4 x 5
+// 5 x 4
+// 10 x 2
+// 20 x 1
+
